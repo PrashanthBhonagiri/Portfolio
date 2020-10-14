@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1, maximum-scale=5"
+		/>
+		<meta name="HandheldFriendly" content="true" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href=".assets/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./site.webmanifest" />
+
+		<!-- Primary Meta Tags -->
+		<title>Prashanth Bhonagiri </title>
+		<meta name="title" content="Prashanth Bhonagiri" />
+		<meta
+			name="description"
+			content="Front-end Developer specialized in building a user-friendly, mobile-responsive, and accessible websites and web applications."
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://prashanthbhonagiri.netlify.app" />
+		<meta property="og:title" content="Prashanth Bhonagiri" />
+		<meta
+			property="og:description"
+			content="Enthusiastic Coder"
+		/>
+		<meta property="og:image" content="https://imgur.com/SwiQ7xZ.png" />
+
+		<link rel="stylesheet" type="text/css" href="layout.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+			rel="stylesheet"
+			rel="noopener"
+		/>
+		<link
+			rel="stylesheet"
+			rel="noopener"
+			href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+		/>
+	</head>
+	<body>
+		<!---- Header ---->
+		<nav class="navbar">
+			<div class="navbar-toggle" onclick="openNav()">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<div class="logo-position">
+				<a href="#" class="logo">Prashanth Bhonagiri</a>
+			</div>
+			<ul class="main-nav">
+				<li><a href="#" class="nav-links">Home</a></li>
+				<li><a href="#about" class="nav-links">About</a></li>
+				<li><a href="#project-header" class="nav-links">Works</a></li>
+				<li><a href="#skills" class="nav-links">Skills</a></li>
+				<li><a href="#contact" class="nav-links">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closeButton" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="#" class="homeMenu">Home</a>
+				<a href="#about" class="aboutMenu">About</a>
+				<a href="#project-header" class="projectMenu">Works</a>
+				<a href="#skills" class="skillsMenu">Skill</a>
+				<a href="#contact" class="contactMenu">Contact</a>
+			</div>
+		</div>
+
+		<!---- Main Body ---->
+		<div class="container">
+			<section id="welcome-section">
+				<h1>Hi, there! I'm Prashanth Bhonagiri</h1>
+			</section>
+			<section id="about">
+				<h1 class="about-header">About me</h1>
+				<div class="about-container">
+					<p class="about-text">
+						I'm a 4<sup>th</sup> year B-Tech student specialized in Information Technology
+						from <a href="http://www.vnrvjiet.ac.in/" target="_blank" rel="noopener" >VNR VJIET</a>. Skilled in Data Structures, Algorithms and Competitive Programming,
+						well versed with programming languages like C++, Java and Python also an enthusiastic Full Stack developer.
+						<br /><br />
+						I like to learn new technologies and best practices every day.
+						I am now available for internships opportunities, full time opportunities
+						and If you are a recruiter or hiring manager looking for an online presence you can get in touch with me today.
+						<!-- I am now available for internships opportunities, full time opportunities and freelance opportunities
+						and If you are a recruiter or hiring manager or business looking for an online presence you can get in touch with me today. -->
+					</p>
+				</div>
+				<a href="#contact" class="link-button">Contact me</a>
+			</section>
+			<h1 id="project-header">My Works</h1>
+			<p>Here are some projects that I have worked recently.</p>
+			<section class="projects">
+				<div class="project-box">
+					<h3>TED<sup>x</sup>VNRVJIET</h3>
+					<p class="project-text">
+						A website for the TEDx event in our college. Tools used: HTML, CSS, JavaScript .
+					</p>
+					<img
+						src="./assets/TEDX2020.jpeg"
+						alt="A screenshot of book finder web app used for displaying my work"
+					/>
+					<a
+						href="http://tedxvnrvjiet.com/"
+						target="_blank"
+						rel="noopener"
+						><button class="project-button">View Live</button></a
+					>
+				</div>
+				<div class="project-box">
+					<h3>Team NSS</h3>
+					<p class="project-text">
+						A website introduced to ease the networking between alumni and current team members we call it as NSS search engine.
+						Tools used: MEVN stack.
+					</p>
+					<img
+						src="./assets/nssvnrvjiet.jpeg"
+						alt="A screenshot of fictional logistic startup website used for displaying my work"
+					/>
+					<a
+						href="https://nssvnrvjiet.now.sh/#/"
+						target="_blank"
+						rel="noopener"
+						><button class="project-button">View Live</button></a
+					>
+				</div>
+				<div class="project-box">
+					<h3>Connect4</h3>
+					<p class="project-text">
+						Connect 4 is a two player board based game, developed using JAVAFX a desktop application 
+					</p>
+					<img
+						src="./assets/connect4.jpeg"
+						alt="A screenshot of devtoo used for displaying my work"
+					/>
+				</div>
+				<div class="project-box">
+					<h3>Portfolio</h3>
+					<p class="project-text">
+						My personal portfolio website built to showcase all my works. Tools
+						used: HTML and CSS.
+					</p>
+					<img
+						src="./assets/home.jpeg"
+						alt="A screenshot of my portfolio website for displaying my work"
+					/>
+				</div>
+			</section>
+
+			<section id="skills">
+				<h1>My Tech Stacks</h1>
+				<div class="skill-box">
+					<div class="box">
+						<i class="fab fa-html5 fa-5x"></i>
+						<p>HTML5</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-css3-alt fa-5x"></i>
+						<p>CSS3</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-js fa-5x"></i>
+						<p>JavaScript</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-angular fa-5x"></i>
+						<p>Angular</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-vuejs fa-5x"></i>
+						<p>Vue js</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-bootstrap fa-5x"></i>
+						<p>Bootstrap</p>
+					</div>
+				</div>
+			</section>
+			<section id="skills">
+				<div class="skill-box">
+					<div class="box">
+						<i class="fab fa-java fa-5x"></i>
+						<p>Java</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-cuttlefish fa-5x">++</i>
+						<p>C++</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-python fa-5x"></i>
+						<p>Pyhton</p>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="contact">
+				<h1>Contact</h1>
+				<div>
+					<form
+						class="contact-form"
+						action="https://formspree.io/xvowdzyb"
+						method="POST"
+						aria-label="contact-form"
+					>
+						<div class="input-box">
+							<input
+								type="text"
+								class="first-name"
+								name="first-name"
+								aria-label="first-name"
+								placeholder="First name"
+								required
+							/><br />
+							<input
+								type="email"
+								class="email"
+								name="email"
+								aria-label="email"
+								placeholder="Email"
+								required
+							/>
+						</div>
+						<textarea
+							class="message"
+							name="message"
+							aria-label="message"
+							placeholder="Message"
+							required
+						></textarea>
+						<button type="submit" class="contact-button">Send</button>
+					</form>
+				</div>
+			</section>
+
+			<footer>
+				<div class="social-media">
+					<a
+						href="https://twitter.com/prashanth8464b"
+						target="_blank"
+						aria-label="Go to my Twitter profile"
+						rel="noopener"
+						><i class="fab fa-twitter socialmedia-icons fa-2x"></i
+					></a>
+					<a
+						href="https://github.com/PrashanthBhonagiri"
+						target="_blank"
+						aria-label="Go to my Github profile"
+						rel="noopener"
+						><i class="fab fa-github socialmedia-icons fa-2x"></i
+					></a>
+					<a
+						href="https://linkedin.com/in/prashanth-bhonagiri/"
+						target="_blank"
+						aria-label="Go to my LinkedIn profile"
+						rel="noopener"
+						><i class="fab fa-linkedin socialmedia-icons fa-2x"></i
+					></a>
+					
+				</div>
+				<p class="footer-text">
+					<script type="text/javascript">
+						document.write(new Date().getFullYear());
+					</script>
+					&copy; Prashanth Bhonagiri.
+				</p>
+			</footer>
+		</div>	
+		<script src="main.js"></script>
+	</body>
+</html>
